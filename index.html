@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link href="lightbox2-master/dist/css/lightbox.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <title>SI 539 Lightbox Homework: Snapshots From a Cross-Country Bike Trip</title>
+</head>
+<body>
+<main>
+    <h1>Snapshots from a Cross-Country Bike Trip</h1>
+    <div><span>Filter: </span>
+        <button type="button" data-filter="all">All</button>
+        <button type="button" data-filter=".landscape">Landscapes</button>
+        <button type="button" data-filter=".lake">Water</button>
+        <button type="button" data-filter=".bike">Bikes</button>
+        <button type="button" data-filter=".city">Cities</button>
+    </div>
+    <div><span>Sort: </span>
+        <button type="button" data-sort="order:asc">East to West</button>
+        <button type="button" data-sort="order:descending">West to East</button>
+        <button type="button" data-sort="random">Random</button>
+    </div>
+    <div class="gallery container">
+        <a href="images/crossing-mass.jpg" data-lightbox="bike-pics" class="mix landscape" data-order="1" data-title="Hills of Massachusetts, just north of our starting point in Connecticut">
+            <img src="images/crossing-mass.jpg" alt="Hills of Massachusetts">
+        </a>
+        <a href="images/lake-erie.jpg" data-lightbox="bike-pics" class="mix lake landscape bike" data-order="2" data-title="By the shore of Lake Erie in New York">
+            <img src="images/lake-erie.jpg" alt="Our tandem bike by the shore of Lake Erie">
+        </a>
+        <a href="images/cleveland.jpg" data-lightbox="bike-pics" class="mix city" data-order="3" data-title="Riding through Cleveland, Ohio">
+            <img src="images/cleveland.jpg" alt="View of Cleveland from the bike path">
+        </a>
+        <a href="images/leaving-michigan.jpg" data-lightbox="bike-pics" class="mix lake" data-order="4" data-title="Crossing Lake Michigan on the ferry">
+            <img src="images/leaving-michigan.jpg" alt="View of Lake Michigan lighthouse from ferry">
+        </a>
+        <a href="images/midwest-farming.jpg" data-lightbox="bike-pics" class="mix landscape" data-order="5" data-title="Wisconsin Farmland">
+            <img src="images/midwest-farming.jpg" alt="Rolling hilly farmland in Wisconsin">
+        </a>
+        <a href="images/many-bikes.jpg" data-lightbox="bike-pics" class="mix city bike" data-order="6" data-title="Touring bikes lined up outside a small-town North Dakota diner">
+            <img src="images/many-bikes.jpg" alt="Touring bikes lined up outside a small-town North Dakota diner">
+        </a>
+        <a href="images/probably-nd.jpg" data-lightbox="bike-pics" class="mix landscape" data-order="7" data-title="Plains of North Dakota">
+            <img src="images/probably-nd.jpg" alt="Plains of North Dakota">
+        </a>
+        <a href="images/medora-nd-bike.jpg" data-lightbox="bike-pics" class="mix bike landscape" data-order="8" data-title="Rocky hills of Medora, North Dakota">
+            <img src="images/medora-nd-bike.jpg" alt="Husband and tandem bike in front of rocky hill formations">
+        </a>
+        <a href="images/montana-camping.jpg" data-lightbox="bike-pics" class="mix landscape" data-order="9" data-title="Camping in Montana">
+            <img src="images/montana-camping.jpg" alt="Tent set up in an empty field">
+        </a>
+        <a href="images/before-glacier.jpg" data-lightbox="bike-pics" class="mix lake landscape" data-order="10" data-title="Approaching Glacier National Park in Montana">
+            <img src="images/before-glacier.jpg" alt="Mountains and lake of Glacier National Park">
+        </a>
+        <a href="images/glacier-np.jpg" data-lightbox="bike-pics" class="mix lake landscape" data-order="11" data-title="Entering Glacier National Park">
+            <img src="images/glacier-np.jpg" alt="Lake with mountains in Glacier National Park">
+        </a>
+        <a href="images/idaho.jpg" data-lightbox="bike-pics" class="mix lake" data-order="12" data-title="Kootenai River in Libby, Montana">
+            <img src="images/idaho.jpg" alt="Husband walking on high bridge over rushing river">
+        </a>
+        <a href="images/washington-rain.jpg" data-lightbox="bike-pics" class="mix landscape" data-order="13" data-title="Climbing a mountain pass on a rainy day in Washington state">
+            <img src="images/washington-rain.jpg" alt="Mountain road in rain">
+        </a>
+        <a href="images/pass-in-washington.jpg" data-lightbox="bike-pics" class="mix landscape" data-order="14" data-title="Another mountain pass in Washington, on a much nicer day">
+            <img src="images/pass-in-washington.jpg" alt="View into valley from a mountain road">
+        </a>
+        <a href="images/made-it.jpg" data-lightbox="bike-pics" class="mix lake " data-order="15" data-title="We made it to the west coast! Deception Pass, Washington">
+            <img src="images/made-it.jpg" alt="Husband and I in front of a bridge near Anacortes">
+        </a>
+    </div>
+</main>
+<script src="lightbox2-master/dist/js/lightbox-plus-jquery.js"></script>
+<script src="mixitup/dist/mixitup.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
